@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body
+{
+    background: url(./fondo_Mesa\ de\ trabajo\ 1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+} */
+
+html
+{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+                .header-full
+                {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                
+
+                .logo img
+                {
+                    width: 50px;
+                    margin-top: 05px;
+                    margin-left: 10px;
+                }
+
+                .sign
+                {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                #inicio
+                {
+                    width: 99vw;
+                    height: 100vh;
+                    margin: auto;
+                    height: auto;
+                }
+                
+                .divinicio
+                {
+                    width: 99vw;
+                    height: 100vh;
+                    background: url(./fondo/fondo-sena-08.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat; 
+                }
+
+                /* .bajar-inicio
+                {
+                    width: 06%;
+                    position: absolute;
+                    left: 2vw;
+                    bottom: 3vh;
+                    z-index: 2;
+                } */
+
+                .div-bajar-aldci
+                {
+                    position: absolute;
+                    left: 03vw;
+                    top: 05vh;
+                    width: 150px;
+                    background-color: #ffffff;
+                    color: #FF6B00;
+                    text-decoration: none;
+                    text-align: center;
+                    border-radius: 50px;
+                }
+
+                .div-bajar-aldci a
+                {
+                    text-decoration: none;
+                    color: #FF6B00;
+                    font-size: 17px;
+                    
+                }
+
+                .div-bajar-conten
+                {
+                    position: absolute;
+                    left: 03vw;
+                    top: 10vh;
+                    width: 150px;
+                    background-color: #ffffff;
+                    color: #FF6B00;
+                    text-decoration: none;
+                    text-align: center;
+                    border-radius: 50px;
+                }
+
+                .div-bajar-conten a
+                {
+                    text-decoration: none;
+                    color: #FF6B00;
+                    font-size: 17px;
+                }
+
+                .titulo
+                {
+                    
+                    color: #ffffff;
+                    font-size: 55px;
+                    position: absolute;
+                    top: 10vh;
+                    left: 02vw;
+                    z-index: 1;
+                    width: 800px;
+                }
+
+                #aldci
+                {
+                    width: 99vw;
+                    height: 100vh;
+                    margin: auto;
+                    height: auto;
+                }
+                
+                .divaldci
+                {
+                    width: 99vw;
+                    height: 100vh;
+                    background: url(./fondo/fondo\ dos\ sena-07.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat; 
+                }
+
+                .text-aldci
+                {
+                    position: absolute;
+                    width: 510px;
+                    top: 105vh;
+                    left: 38vw;
+                    font-size: 25px;
+                }
+                
+                .text-aldci h1
+                {
+                    justify-content: center;
+                    padding-bottom: 60px;
+                }
+
+                .text-aldci p
+                {
+                    text-align: justify;
+                }
+
+                .text-aldci audio
+                {
+                    margin-top: 90px;
+                    margin-left: 100px;
+                }
+
+                                    .div-subir-inicio
+                                    {
+                                        position: absolute;
+                                        left: 03vw;
+                                        top: 105vh;
+                                        width: 150px;
+                                        background-color: #FF6B00;
+                                        text-decoration: none;
+                                        text-align: center;
+                                        border-radius: 50px;
+                                    }
+
+                                    .div-subir-inicio a
+                                    {
+                                        text-decoration: none;
+                                        color: #Ffffff;
+                                        font-size: 17px;
+                                        
+                                    }
+
+                                    .div-bajar-conten-aldci
+                                    {
+                                        position: absolute;
+                                        left: 03vw;
+                                        top: 110vh;
+                                        width: 150px;
+                                        background-color: #FF6B00;
+                                        
+                                        text-decoration: none;
+                                        text-align: center;
+                                        border-radius: 50px;
+                                    }
+
+                                    .div-bajar-conten-aldci a
+                                    {
+                                        text-decoration: none;
+                                        color: #Ffffff;
+                                        font-size: 17px;
+                                    }
+
+                /* .bajar-header
+                {
+                    width: 06%;
+                    position: absolute;
+                    right: 2vw;
+                    bottom: -98vh;
+                    z-index: 2;
+                } */
+
+                header
+                {
+                    height: 60px;
+                    font-size: 20px;
+                    color: white;
+                    background-color: #ff6b00 ;
+                    position: sticky;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    z-index: 1;
+                }
+
+                
+
+                nav .nav-right
+                {
+                    display: flex;
+                    justify-content: flex-end;
+                    list-style: none;
+                    padding: 10px;
+                }
+
+                nav .nav-right li
+                {
+                    margin: auto;
+                    text-decoration: none;
+                    cursor: pointer;
+                    margin-right: 20px;
+                    margin-top: 09px;
+                }
+
+                .nav-first ul li strong a
+                {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+                
+                .nav-first ul li strong a:hover
+                {
+                    color: rgb(185, 184, 184);
+                }
+                
+
+main
+{
+    padding-top: 70px;
+    
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+
+.menu-izq
+{
+    width: 30vw;
+}
+
+.todo
+{
+    width: 70vw;
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 100%;
+   
+    position: sticky;
+    top: 90px;
+    right: 0;
+}
+
+#introduccion
+{
+    display: flex;
+    width: 900px;
+}
+
+.introduccion-izq
+{
+    width: 50%;
+    
+}
+
+.introduccion-der
+{
+    width: 50%;
+}
+
+
+.introduccion-izq h1
+{
+    margin-left: 12px;
+}
+
+.menu div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu div a
+{
+    width: 90%;
+}
+
+.menu div a img
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+#introduccion, #que-es, #partes, #funcionalidad
+{
+    margin: auto;
+}
+
+.titulos
+{
+    display: flex;
+    margin-top: 110px;
+    font-size: 32px;
+    color: black;
+}
+
+.text-orange
+{
+    color: #ff6b00;
+}
+
+.text-intro 
+{
+     margin-top: 120px;
+     width: 450px;
+     font-size: 25px;
+     text-align: justify;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+.audio
+{
+    margin: 120px auto 50px 150px;
+    box-sizing: border-box;
+    /* margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; */
+}
+
+.personaje video
+{
+    padding-top: 40px;
+    margin-left: 30px;
+}
+
+                    #que-es
+                    {
+                        width: 900px;
+                        display: flex;
+                       /*  background-color: rgb(138, 96, 179); */
+                    }
+
+                    #que-es .que-es h1 span
+                    {
+                        margin-left: 12px;
+                    }
+
+                    .que-es-motor
+                    {
+                        display: flex;
+                        align-items: center;
+                    }
+
+                    .motor img
+                    {
+                        width: 400px;
+                        margin-left: 20px;
+                    }
+
+#partes
+{
+    width: 900px;
+    display: flex;
+   /*  background-color: rgb(84, 134, 78); */
+}
+
+.partes
+{
+    width: 900px;
+}
+
+#partes .partes h1 span
+{
+    margin-left: 12px;
+}
+
+.partes-motor
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.nav-partes
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 270px;
+}
+
+.nav-partes ul li 
+{
+    list-style-type: none;
+}
+
+.nav-partes ul li a div
+{
+    color: #ffffff;
+    background-color: #ff6b00;
+    border: 2px solid #ff6b00;
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.nav-partes ul li a div:hover
+{
+    color: #2d2d2e;
+    background-color: #ffffff;
+}
+
+.nav-partes ul li a div p
+{
+    padding-top: 10px;
+}
+
+.nav-partes ul li a
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.partes-motor section article 
+{
+    width: 450px;
+    padding-top: 70px;
+}
+
+.img-rotor
+{
+    width: 500px;
+}
+
+.text-partes
+{
+    text-align: justify;
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+    
+}
+
+.text-partes-rotor
+{
+    text-align: justify;
+    font-size: 20px;
+    width: 370px;
+    margin: auto;
+}
+
+.text-partes-devanado
+{
+    width: 370px;
+    text-align: justify;
+    font-size: 20px;
+    margin: auto;
+}
+
+.tit-partes
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partes-audio
+{
+    margin-top: 20px;
+}
+
+#parte1, #parte2, #parte3, #parte4, #parte5, #parte6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+                        #funcionalidad
+                        {
+                            padding-top: 08px;
+                            width: 900px;
+                            display: flex;
+                            /* background-color: rgb(132, 126, 212); */
+                            flex-direction: column;
+                        }
+
+                        .funcionalidad-motor
+                        {
+                            display: flex;
+                            align-items: center;
+                        }
+
+                        .text-intro-funcio
+                        {
+                            margin-top: 120px;
+                            width: 600px;
+                            font-size: 25px;
+                            text-align: justify;
+                            
+                        }
+                        
+                        .audio-funcio
+                        {
+                            margin-top: 70px;
+                            margin-bottom: 50px;
+                            margin-left: 50px;
+                        }
+
+                        .infografia 
+                        {
+                            width: 50vw;
+                        }
+
+                        .funcionalidad h1
+                        {
+                            margin-left: 12px;
+                        }
+
+
+
+
+footer
+{
+    color: #ffffff;
+    background-color: #ff6b00;
+    height: 05vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

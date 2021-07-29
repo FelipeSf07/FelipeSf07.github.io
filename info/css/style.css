@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header-full
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img
+{
+    width: 50px;
+    margin-top: 05px;
+    margin-left: 10px;
+}
+
+.sign
+{
+    width: 30px;
+    height: 30px;
+}
+
+header
+{
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff6b00 ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+nav .nav-right
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 10px;
+}
+
+nav .nav-right li
+{
+    margin-left: 10px;
+    
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 09px;
+}
+
+nav .nav-right li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-first ul li strong a:hover
+{
+    color: rgb(185, 184, 184);
+}
+
+main
+{
+    padding-top: 2rem;
+    height: 80vh;
+    display: flex;
+}
+
+aside
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 30%;
+    height: 75vh;
+    margin-top: 90px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+main .izq-section
+{
+    padding-left: 20rem;
+}
+
+aside div
+{
+    width: 370px;
+    height: 150px;
+    border-bottom: 4px solid #ff6b00 ;
+    border-top: 4px solid #ff6b00;
+    border-right: 4px solid #ff6b00; 
+    color: #ff6b00;
+}
+
+.menu-left div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-left div img
+{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+section h1
+{
+    display: flex;
+    margin-top: 110px;
+    font-size: 40px;
+    color: black;
+}
+
+.text-orange
+{
+    color: #ff6b00;
+}
+
+section .text-intro 
+{
+     margin-top: 50px;
+     width: 450px;
+     font-size: 30px;
+     text-align: justify;
+}
+
+.multide img
+{
+    padding-top: 150px;
+    width: 520px;
+}
